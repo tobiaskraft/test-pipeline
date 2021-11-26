@@ -1,0 +1,28 @@
+/* MDB Sidenav override - must be consistent with main.gsp ToDo: move to variables */
+$sidenav-breakpoint: 768px;
+
+@media (min-width: $sidenav-breakpoint) {
+  .fixed-sn .double-nav {
+    transition: all .3s ease-in-out;
+    padding-left: 15.9rem !important;
+  }
+  .fixed-sn .double-nav.slim {
+    padding-left: 4.6rem !important;
+  }
+
+  .fixed-sn main {
+    transition: all .3s ease-in-out;
+    padding-left: 15rem !important;
+  }
+  .fixed-sn main.slim {
+    padding-left: 3.7rem !important;
+  }
+
+  .fixed-sn footer {
+    transition: all .3s ease-in-out;
+    padding-left: 15rem !important;
+  }
+  .fixed-sn footer.slim {
+    padding-left: 3.7rem !important;
+  }
+}
